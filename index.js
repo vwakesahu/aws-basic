@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000; // Use the port from environment variables, or 3000 as a fallback
 
 // Basic GET request handler
-app.get("/", (req, res) => {
+app.get("/api/hello", (req, res) => {
   res.send("Hello, World! Your Node.js server is running.");
 });
 
